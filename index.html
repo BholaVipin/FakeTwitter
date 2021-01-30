@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>
+            Twitter
+        </title>
+        <style>
+            .geek
+            {
+                background-color:whitesmoke;
+                border-radius: 5px;
+                height:60px;
+                width:800px;
+                text-shadow:50px;
+                margin:0 auto;
+                border-color: lightblue;
+                border-bottom-width: 3px;
+                border-bottom-style: solid;
+                border-bottom-color: lightskyblue;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+                
+                
+            }
+            .rapi
+            {
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+;
+            }
+            .rapi:focus-within
+            {
+             color: lightskyblue;
+             border:0px;
+            }
+            .Joke
+            {
+                width:800px;
+                height:40%;
+                background-color:whitesmoke;
+                border-radius: 5px;
+                text-shadow:50px;
+                border:0px;
+                font-size:x-large;
+                outline:none;
+              
+            
+                
+            }
+            .Helie
+            {
+                background-color: lightskyblue;
+                color:white;
+                width: 800px;
+                height: 70px;
+                border-radius: 50px;
+                border-bottom-width: 3px;
+                border-bottom-style: solid;
+                border-bottom-color: lightskyblue;
+                border-top-width: 3px;
+                border-top-style: solid;
+                border-top-color: lightskyblue;
+                border-left-width: 3px;
+                border-left-style: solid;
+                border-left-color: lightskyblue;
+                border-right-width: 3px;
+                border-right-style: solid;
+                border-right-color: lightskyblue;
+                outline:none;
+                font-size:x-large;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+            }
+            .Helie:hover
+            {
+                background-color:33CCFF;
+                border-bottom-width: 3px;
+                border-bottom-style: solid;
+                border-bottom-color:33CCFF;
+                border-top-width: 3px;
+                border-top-style: solid;
+                border-top-color:33CCFF;
+                border-left-width: 3px;
+                border-left-style: solid;
+                border-left-color: 33CCFF;
+                border-right-width: 3px;
+                border-right-style: solid;
+                border-right-color: 33CCFF;
+            }
+        </style>
+        <script>
+            function Beckon()
+            {
+                if(document.getElementById("A1").value=="Drastic"&&document.getElementById("A2").value=="garfieldodiejon1")
+                {
+                    document.write("Welcome Drastic!!!!")
+                }
+                else
+                {
+                    document.write("Access denied!!!")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <center><img src="Twit.jpeg" height="45px" width="50px">
+            <H2 class="rapi">Log in to Twitter</H2></center>
+  
+            <center></center>
+        <div class="geek">
+            <p class="rapi"> Phone, email or username <input type="text" class="Joke" id="A1"> </p>
+         
+        </div>
+        <div class="geek">
+            <p class="rapi"> Password   <input type="Password" class="Joke" id="A2"> </p>
+        </div>
+        <br>
+        <br>
+        <center>
+        <input type="button" value="Login In" class="Helie" onclick="Beckon()">
+       
+        </center>           
+    </body>
+</html>
